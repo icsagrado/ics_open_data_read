@@ -56,8 +56,8 @@ data['result']['count']
 # In[4]:
 
 
-id_resource="Estadística bono social"
-url = 'https://catalogodatos.cnmc.es/api/3/action/package_search?q=' +bono_social
+bono_social ="Estadística bono social"
+url = 'https://catalogodatos.cnmc.es/api/3/action/package_search?q=' + bono_social
 
 header = {"User-Agent": "Application"}   
 r = requests.get(url, headers=header)
